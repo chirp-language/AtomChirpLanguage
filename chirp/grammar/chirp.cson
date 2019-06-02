@@ -12,85 +12,85 @@
 ]
 
 'repository': {
-	  'Expression': {
-  		'patterns': [
-  			{
-          'include': '#Letter'
-        },
+  'Expression': {
+    'patterns': [
+      {
+        'include': '#Letter'
+      },
 
-  			{
-          'include': '#ParenExpression'
-        },
+      {
+        'include': '#ParenExpression'
+      },
 
-  			{
-          'include': '#Types'
-        },
+      {
+        'include': '#Types'
+      },
 
-  			{
-          'include': '#Recursion'
-        },
+      {
+        'include': '#Recursion'
+      },
 
-  			{
-          'include': '#Number'
-        },
+      {
+        'include': '#Number'
+      },
 
-  			{
-          'include': '#SingleString'
-        },
+      {
+        'include': '#SingleString'
+      },
 
-        {
-          'include': '#DoubleString'
-        },
+      {
+        'include': '#DoubleString'
+      },
 
-  			{
-          'include': '#SingleComment'
-        },
+      {
+        'include': '#SingleComment'
+      },
 
-  			{
-          'include': '#Operator'
-        },
+      {
+        'include': '#Operator'
+      },
 
-  			{
-          'include': '#Keyword'
-        }
-  		]
-	  }
+      {
+        'include': '#Keyword'
+      }
+    ]
+  }
 
-	  'Types':
-	  {
-		  'match': 'int|float|char|entry'
-		  'name': 'support.type.chirp'
-	  }
+  'Types':
+  {
+    'match': 'int|float|char|entry'
+    'name': 'support.type.chirp'
+  }
 
-	  'Recursion':
-	  {
-		  'match': 'if|for|while|switch'
-		  'name': 'keyword.control.chirp'
-	  }
+  'Recursion':
+  {
+    'match': 'if|for|while|switch'
+    'name': 'keyword.control.chirp'
+  }
 
-	  'Number':
-	  {
-		  'match': '1|2|3|4|5|6|7|8|9|0'
-		  'name': 'constant.numeric.chirp'
-	  }
+  'Number':
+  {
+    'match': '1|2|3|4|5|6|7|8|9|0'
+    'name': 'constant.numeric.chirp'
+  }
 
-	  'SingleString':
-	  {
-		  'begin':'\''
-		  'beginCaptures':{
-			  '0':{
-				  'name':'punctuation.definition.string.begin.chirp'
-			  }
-		  }
+  'SingleString':
+  {
+    'begin':'\''
+    'beginCaptures':{
+      '0':{
+        'name':'punctuation.definition.string.begin.chirp'
+      }
+    }
 
-		  'end':'\''
-		  'endCaptures':{
-			  '0':{
-				  'name':'punctuation.definition.string.end.chirp'
-			  }
-		  }
+    'end':'\''
+    'endCaptures':{
+      '0':{
+        'name':'punctuation.definition.string.end.chirp'
+      }
+    }
 
-		  'name':'string.quoted.single.eve'
+    'name':'string.quoted.single.eve'
 
       'patterns': [
         {
@@ -98,78 +98,78 @@
           'name': 'constant.character.escape.chirp'
         }
       ]
-	  }
+  }
 
-    'DoubleString':
-    {
-      'begin':'\"'
-		  'beginCaptures':{
-			  '0':{
-				  'name':'punctuation.definition.string.begin.chirp'
-			  }
-		  }
+  'DoubleString':
+  {
+    'begin': '\"'
+    'beginCaptures': {
+        '0': {
+          'name':'punctuation.definition.string.begin.chirp'
+        }
+    }
 
-		  'end':'\"'
-		  'endCaptures':{
-			  '0':{
-				  'name':'punctuation.definition.string.end.chirp'
-			  }
-		  }
+    'end': '\"'
+    'endCaptures': {
+        '0':{
+          'name':'punctuation.definition.string.end.chirp'
+        }
+    }
 
-		  'name':'string.quoted.double.chirp'
+    'name':'string.quoted.double.chirp'
 
-      'patterns': [
+    'patterns': [
         {
           'match': '\"'
           'name': 'constant.character.escape.chirp'
         }
-      ]
+    ]
+  }
+
+  'SingleComment':
+  {
+    'begin': '//.*$',
+    'beginCaptures': {
+      '0': {
+        'name': 'comment.line.chirp'
+      }
+    }
+  }
+
+  'Operator':
+  {
+    'match': '=|==|=!|!|>|<|=<|=>',
+    'name': 'keyword.operator.chirp'
+  }
+
+  'Keyword':
+  {
+    'match': 'true|false',
+    'name': 'keyword.chirp'
+  }
+
+  'ParenExpression':
+  {
+    'begin': '\\('
+    'end': '\\)'
+    'beginCaptures': {
+      '0': {
+        'name': 'punctuation.paren.open.chirp'
+      }
     }
 
-	  'SingleComment':
-	  {
-		  'begin': '//.*$',
-		  'beginCaptures': {
-			  '0': {
-				  'name': 'comment.line.chirp'
-			  }
-		  }
-	  }
+    'endCaptures': {
+      '0': {
+        'name': 'punctuation.paren.close.chirp'
+      }
+    }
 
-	  'Operator':
-	  {
-		  'match': '=|==|=!|!|>|<|=<|=>',
-		  'name': 'keyword.operator.chirp'
-	  }
+    'name': 'expression.group.chirp'
 
-	  'Keyword':
-	  {
-		  'match': 'true|false',
-		  'name': 'keyword.chirp'
-	  }
-
-	  'ParenExpression':
-    {
-  		'begin': '\\('
-  		'end': '\\)'
-  		'beginCaptures': {
-  		  '0': {
-          'name': 'punctuation.paren.open.chirp'
-        }
-  		}
-
-  		'endCaptures': {
-  		  '0': {
-          'name': 'punctuation.paren.close.chirp'
-        }
-  		}
-
-  		'name': 'expression.group.chirp'
-
-  		'patterns': [
-        {
-          'include': '#Expression'
-        }
-      ]
-		}
+    'patterns': [
+      {
+        'include': '#Expression'
+      }
+    ]
+  }
 }
