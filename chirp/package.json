@@ -1,0 +1,15 @@
+{
+  "name": "language-chirp",
+  "version": "0.0.1",
+  "description": "This adds syntax highlighting for Atom!",
+  "author": "Munchii",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dmunch04/AtomChirpLanguage.git"
+  },
+  "homepage": "https://github.com/Dmunch04/AtomChirpLanguage",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
