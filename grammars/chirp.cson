@@ -90,4 +90,9 @@
     'match': '\\w'
     'name': 'variable.other.chirp'
   }
+
+  {
+    'match': 'int|float|char|string'
+    'name': 'variable.chirp'
+  }
 ]
