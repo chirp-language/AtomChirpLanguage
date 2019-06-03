@@ -1,15 +1,46 @@
 {
-  "name": "language-chirp",
-  "version": "0.0.1",
-  "description": "This adds syntax highlighting for Atom!",
-  "author": "Munchii",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Dmunch04/AtomChirpLanguage.git"
+  "_from": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball",
+  "_id": "language-chirp@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ICVirIr0fpLTmTeC8PoTG0+qLMaBSlP2FcX+Qnl7RhVGU8v2wIT1rsMFMGar5jclzU6MjxKykOIUW9GExgUFsg==",
+  "_location": "/language-chirp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball"
   },
-  "homepage": "https://github.com/Dmunch04/AtomChirpLanguage",
-  "license": "MIT",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball",
+  "_shasum": "e285af605d36b1d04dab6e953b8685475424c5c7",
+  "_spec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.1/tarball",
+  "_where": "/tmp/apm-install-dir-11953-9505-xx2ygj.7xder",
+  "author": {
+    "name": "Munchii"
+  },
+  "bugs": {
+    "url": "https://github.com/Dmunch04/AtomChirpLanguage/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This adds syntax highlighting for the Chirp programming language in Atom!",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "homepage": "https://github.com/Dmunch04/AtomChirpLanguage",
+  "keywords": [
+    "chirp"
+  ],
+  "license": "MIT",
+  "name": "language-chirp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmunch04/AtomChirpLanguage.git"
+  },
+  "version": "0.0.1"
 }

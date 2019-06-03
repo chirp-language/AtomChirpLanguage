@@ -1,0 +1,93 @@
+'scopeName': 'source.ch'
+'name': 'Chirp'
+
+'fileTypes': [
+  'ch',
+  'chirp'
+]
+
+'patterns': [
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.chirp'
+  }
+
+  {
+    'begin': '//'
+    'end': '$\\n?'
+    'name': 'comment.line.chirp'
+  }
+
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.chirp'
+  }
+
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.chirp'
+  }
+
+  {
+    'match': '\\b(entry|class)\\b'
+    'name': 'keyword.reserved.chirp'
+  }
+
+  {
+    'match': '\\b(if|return|else|case|break|for|while|switch|continue|elseif)\\b'
+    'name': 'keyword.control.flow-control.chirp'
+  }
+
+  {
+    'match': '\\b(true|false)\\b'
+    'name': 'string.boolean.chirp'
+  }
+
+  {
+    'match': '\\b[A-Z_]+\\b'
+    'name': 'entity.other.attribute-name.chirp'
+  }
+
+  {
+    'match': '(-|\\.)?\\b[0-9]+(\\.[0-9]+)?\\b'
+    'name': 'constant.numeric.chirp'
+  }
+
+  {
+    'match': '(\\w|[\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&])+(?=\\s*\\()'
+    'name': 'support.function.chirp'
+  }
+
+  {
+    'match': '\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&'
+    'name': 'keyword.operator.chirp'
+  }
+
+  {
+    'match': '[<>]?[\\.]{1,3}[<>]?'
+    'name': 'keyword.operator.range.chirp'
+  }
+
+  {
+    'match': '\\w+(?=\\s*:)'
+    'name': 'variable.other.chirp'
+  }
+
+  {
+    'match': '(?<=\\w\\.)\\w+(?=\\.|\\s|,|;|\\)|\\?|\\+|\\-|=)'
+    'name': 'support.constant.chirp'
+  }
+
+  {
+    'match': '\\b([A-Z])\\w+\\b'
+    'name': 'entity.name.type.class.chirp'
+  }
+
+  {
+    'match': '\\w'
+    'name': 'variable.other.chirp'
+  }
+]
