@@ -77,21 +77,6 @@
   }
 
   {
-    'match': '(?<=\\w\\.)\\w+(?=\\.|\\s|,|;|\\)|\\?|\\+|\\-|=)'
-    'name': 'support.constant.chirp'
-  }
-
-  {
-    'match': '\\b([A-Z])\\w+\\b'
-    'name': 'entity.name.type.class.chirp'
-  }
-
-  {
-    'match': '\\w'
-    'name': 'variable.other.chirp'
-  }
-
-  {
     'match': 'int|float|char|string'
     'name': 'variable.chirp'
   }
