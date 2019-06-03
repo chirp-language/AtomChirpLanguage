@@ -1,24 +1,24 @@
 {
-  "_from": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball",
-  "_id": "language-chirp@0.0.2",
+  "_from": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball",
+  "_id": "language-chirp@0.2.0",
   "_inBundle": false,
   "_integrity": "sha512-ICVirIr0fpLTmTeC8PoTG0+qLMaBSlP2FcX+Qnl7RhVGU8v2wIT1rsMFMGar5jclzU6MjxKykOIUW9GExgUFsg==",
   "_location": "/language-chirp",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball"
+    "raw": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball",
+  "_resolved": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball",
   "_shasum": "e285af605d36b1d04dab6e953b8685475424c5c7",
-  "_spec": "https://www.atom.io/api/packages/language-chirp/versions/0.0.2/tarball",
+  "_spec": "https://www.atom.io/api/packages/language-chirp/versions/0.2.0/tarball",
   "_where": "/tmp/apm-install-dir-11953-9505-xx2ygj.7xder",
   "author": {
     "name": "Munchii"
@@ -42,5 +42,5 @@
     "type": "git",
     "url": "git+https://github.com/Dmunch04/AtomChirpLanguage.git"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
