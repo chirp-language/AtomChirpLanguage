@@ -40,7 +40,7 @@
   "name": "language-chirp",
   "repository": {
     "type": "git",
-    "url": "git+git://github.com/Dmunch04/AtomChirpLanguage.git"
+    "url": "https://github.com/Dmunch04/AtomChirpLanguage.git"
   },
   "version": "0.8.0"
 }

@@ -4,3 +4,4 @@ Then open the terminal
 And then cd into the local GitHub repo folder (this current folder).
 Then type in the terminal:
 apm publish minor
+(if you get error, try: apm publis --tag v%VERSION%)
