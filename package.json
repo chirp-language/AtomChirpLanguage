@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball",
-  "_id": "language-chirp@0.4.0",
+  "_from": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball",
+  "_id": "language-chirp@0.6.0",
   "_inBundle": false,
-  "_integrity": "sha512-ICVirIr0fpLTmTeC8PoTG0+qLMaBSlP2FcX+Qnl7RhVGU8v2wIT1rsMFMGar5jclzU6MjxKykOIUW9GExgUFsg==",
+  "_integrity": "sha512-33uJ7UOmF5cVLy8vwaotYrM3A2ZTjBKzP98UwTw8zsAeq0YdkZs3QjQ9OBEtrx7q713DaYdtmKfV/3adQyaO7Q==",
   "_location": "/language-chirp",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball"
+    "raw": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball",
-  "_shasum": "e285af605d36b1d04dab6e953b8685475424c5c7",
-  "_spec": "https://www.atom.io/api/packages/language-chirp/versions/0.4.0/tarball",
-  "_where": "/tmp/apm-install-dir-11953-9505-xx2ygj.7xder",
+  "_resolved": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball",
+  "_shasum": "bc48519d06302f10e365910b55a688cf53a7c17e",
+  "_spec": "https://www.atom.io/api/packages/language-chirp/versions/0.6.0/tarball",
+  "_where": "/tmp/apm-install-dir-11953-13560-1fv4qu7.nges",
   "author": {
     "name": "Munchii"
   },
@@ -40,7 +40,7 @@
   "name": "language-chirp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dmunch04/AtomChirpLanguage.git"
+    "url": "git+https://github.com/Dmunch04/AtomChirpLanguage.git"
   },
-  "version": "0.5.0"
+  "version": "0.6.0"
 }

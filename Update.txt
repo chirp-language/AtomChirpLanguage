@@ -1,0 +1,6 @@
+Change all version numbers in:
+package.json
+Then open the terminal
+And then cd into the local GitHub repo folder (this current folder).
+Then type in the terminal:
+apm publish minor

@@ -7,75 +7,88 @@
 ]
 
 'patterns': [
+  # Block comment
   {
-    'begin': '/\\*'
-    'end': '\\*/'
+    'begin': '###'
+    'end': '###'
     'name': 'comment.block.chirp'
   }
 
+  # Single line comment
   {
-    'begin': '//'
-    'end': '$\\n?'
+    'match': '#'
     'name': 'comment.line.chirp'
   }
 
+  # Strings with single quote (')
   {
     'begin': '\''
     'end': '\''
     'name': 'string.quoted.single.chirp'
   }
 
+  # Strings with double quote (")
   {
     'begin': '"'
     'end': '"'
     'name': 'string.quoted.double.chirp'
   }
 
+  # Entry and class keywords
   {
     'match': '\\b(entry|class)\\b'
     'name': 'keyword.reserved.chirp'
   }
 
+  # Other keywords
   {
-    'match': '\\b(if|return|else|case|break|for|while|switch|continue|elseif)\\b'
+    'match': '\\b(if|else|return|switch|case|for|while|break|continue)\\b'
     'name': 'keyword.control.flow-control.chirp'
   }
 
+  # Bool keywords
   {
     'match': '\\b(true|false)\\b'
     'name': 'string.boolean.chirp'
   }
 
+  # Characters
   {
     'match': '\\b[A-Z_]+\\b'
     'name': 'entity.other.attribute-name.chirp'
   }
 
+  # Numbers
   {
     'match': '(-|\\.)?\\b[0-9]+(\\.[0-9]+)?\\b'
     'name': 'constant.numeric.chirp'
   }
 
+  # Function
   {
     'match': '(\\w|[\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&])+(?=\\s*\\()'
     'name': 'support.function.chirp'
   }
 
+  # Operators
   {
     'match': '\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&'
     'name': 'keyword.operator.chirp'
   }
 
+  # Range
   {
     'match': '[<>]?[\\.]{1,3}[<>]?'
     'name': 'keyword.operator.range.chirp'
   }
 
+  # Variables
   {
     'match': '\\w+(?=\\s*:)'
     'name': 'variable.other.chirp'
   }
 
+  # Value types
   {
     'match': 'int|float|char|string'
     'name': 'variable.chirp'
