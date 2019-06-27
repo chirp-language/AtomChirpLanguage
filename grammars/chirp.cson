@@ -42,7 +42,7 @@
 
   # Other keywords
   {
-    'match': '\\b(if|else|return|switch|case|for|while|break|continue)\\b'
+    'match': '\\b(if|else|ret|switch|case|for|while|break|continue)\\b'
     'name': 'keyword.control.flow-control.chirp'
   }
 
