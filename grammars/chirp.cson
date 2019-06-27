@@ -90,7 +90,7 @@
 
   # Value types
   {
-    'match': 'int|float|char|string'
+    'match': 'int|float|char|string|bool|none'
     'name': 'variable.chirp'
   }
 ]
